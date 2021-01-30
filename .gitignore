@@ -20,5 +20,8 @@ node_modules
 # Cache for Parcel
 .cache
 
+# Env vars
+.env.local
+
 # Apple stuff
 .DS_Store

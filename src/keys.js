@@ -1,8 +1,8 @@
 export const firebaseKeys = {
-  apiKey: 'AIzaSyDsI-WePDEVH-ipRRYuV-uUZiLZBljN-dg',
-  authDomain: 'korn-fan-site.firebaseapp.com',
-  projectId: 'korn-fan-site',
-  storageBucket: 'korn-fan-site.appspot.com',
-  messagingSenderId: '283242489356',
-  appId: '1:283242489356:web:d3555a6276f86e495af029'
+  apiKey: process.env.API_KEY,
+  authDomain: process.env.AUTH_DOMAIN,
+  projectId: process.env.PROJECT_ID,
+  storageBucket: process.env.STORAGE_BUCKET,
+  messagingSenderId: process.env.MESSAGING_SENDER_ID,
+  appId: process.env.APP_ID
 };
