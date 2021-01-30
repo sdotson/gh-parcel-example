@@ -11,6 +11,7 @@
   "scripts": {
     "start": "parcel src/index.html --out-dir docs",
     "build": "parcel build src/index.html --out-dir docs --public-url ./",
+    "heroku-postbuild": "parcel build src/index.html",
     "deploy": "npm run build && git add . && git commit -a -m 'latest build' && git push origin master",
     "deployPersonal": "npm run build && git add . && git commit -a -m 'latest build' && git push personal master"
   },
