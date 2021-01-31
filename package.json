@@ -1,5 +1,5 @@
 {
-  "name": "proofOfConecepts",
+  "name": "deployments-with-parcel-examples",
   "version": "1.0.0",
   "main": "index.html",
   "license": "MIT",
@@ -10,9 +10,7 @@
   ],
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html",
-    "deploy": "npm run build && git add . && git commit -a -m 'latest build' && git push origin master",
-    "deployPersonal": "npm run build && git add . && git commit -a -m 'latest build' && git push personal master"
+    "build": "parcel build src/index.html"
   },
   "dependencies": {
     "parcel-bundler": "^1.12.4",
