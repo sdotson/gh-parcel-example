@@ -1,4 +1,4 @@
-# Github Pages Parcel example with environment variables
+# Deploy Parcel example with environment variables
 
 This is a simple app with CRUD functionality. A prerequisite is you set up a new firebase firestore and set the required env vars. 
 
