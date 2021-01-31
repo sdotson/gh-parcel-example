@@ -9,21 +9,13 @@
     "maintained node versions"
   ],
   "scripts": {
-    "start": "parcel src/index.html --out-dir docs",
-    "build": "parcel build src/index.html --out-dir docs --public-url ./",
-    "heroku-postbuild": "parcel build src/index.html",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
     "deploy": "npm run build && git add . && git commit -a -m 'latest build' && git push origin master",
     "deployPersonal": "npm run build && git add . && git commit -a -m 'latest build' && git push personal master"
   },
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "esm": "^3.2.25",
-    "jsdom-global": "^3.0.2",
-    "mocha": "^8.2.1",
-    "parcel-bundler": "^1.12.4",
-    "sinon": "^9.2.4"
-  },
   "dependencies": {
+    "parcel-bundler": "^1.12.4",
     "config": "^3.3.3",
     "firebase": "^8.2.5"
   }
